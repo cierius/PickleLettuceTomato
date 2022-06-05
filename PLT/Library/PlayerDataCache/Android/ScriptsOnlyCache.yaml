@@ -1,5 +1,7 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - SettingsScript
     Unity.2D.Animation.Editor.dll:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
@@ -7,6 +9,8 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -20,12 +24,15 @@ ScriptsOnlyBuild:
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.ContentSizeFitter
     - UnityEngine.UI.GraphicRaycaster
     - UnityEngine.UI.Image
+    - UnityEngine.UI.InputField
     - UnityEngine.UI.Mask
     - UnityEngine.UI.ScrollRect
-    - UnityEngine.UI.Scrollbar
+    - UnityEngine.UI.Text
     - UnityEngine.UI.VerticalLayoutGroup
   sceneClasses:
     Assets/Scenes/Home.unity:
@@ -35,31 +42,45 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 20
       Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
     - Class: 28
+      Script: {instanceID: 0}
+    - Class: 48
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1522}
+      Script: {instanceID: 1532}
     - Class: 114
-      Script: {instanceID: 2674}
+      Script: {instanceID: 2260}
     - Class: 114
-      Script: {instanceID: 2846}
+      Script: {instanceID: 2684}
     - Class: 114
-      Script: {instanceID: 3082}
+      Script: {instanceID: 2856}
     - Class: 114
-      Script: {instanceID: 3328}
+      Script: {instanceID: 3092}
     - Class: 114
-      Script: {instanceID: 3340}
+      Script: {instanceID: 3150}
     - Class: 114
-      Script: {instanceID: 3848}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 4506}
+      Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 4712}
+      Script: {instanceID: 3686}
+    - Class: 114
+      Script: {instanceID: 3858}
+    - Class: 114
+      Script: {instanceID: 4516}
+    - Class: 114
+      Script: {instanceID: 4722}
+    - Class: 114
+      Script: {instanceID: 30062}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -584,7 +605,13 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.IK.Runtime.dll
     namespaceName: UnityEngine.U2D.IK
     className: FabrikSolver2D
+  - hash:
+      serializedVersion: 2
+      Hash: 6c6da7fae85a01c9aa5e4c6e4ed2a05b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SettingsScript
   platform: 13
   scenePathNames:
   - Assets/Scenes/Home.unity
-  playerPath: C:/Dev/PLT/Builds/Pickle Lettuce Tomato.apk
+  playerPath: C:/Dev/plt/Builds/PLT v0.1.apk
